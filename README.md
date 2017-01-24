@@ -9,26 +9,13 @@ asd
 		$('.edit-book').hide();
 		$('.delete-book').hide();
 		this.$('.update-book').show();
-		this.$('.cancel').show();
-
-		var book = this.$('.book').html();
-		var author = this.$('.author').html();
-		var price = this.$('.price').html();
- 
-		this.$('.book').html('<input type="text" class="form-control book-update" value="' + book + '">');
-		this.$('.author').html('<input type="text" class="form-control author-update" value="' + author + '">');
-		this.$('.price').html('<input type="text" class="form-control price-update" value="' + price + '">');
-	},
-	update: function() {
-		this.model.set('book', $('.book-update').val());
-		this.model.set('author', $('.author-update').val());
-		this.model.set('price', $('.price-update').val());
-	},
-	cancel: function() {
-		booksView.render();
-	},
-	delete: function() {
-		this.model.destroy();
+sadbhdgashgdjhabgsld
+a'sldljahsd
+'laspjhda;
+ksdpkaks;kd
+aksodpalsl
+\'l;hjkcf
+\llh
 	},
 	this sis somethin g thatcan be rendered using backbone layout manager
 	
